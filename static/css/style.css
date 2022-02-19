@@ -1,0 +1,15 @@
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+/* Media Queries */
+@media(max-width: 768px){
+    .sidebar {
+        height: 100vh;
+    }
+}

@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>hoslog</title>
+    </head>
+    <body>
+        <main>
+            {% for message in messages %}
+                {% if message %}
+                    <p><span style="color:black;">{{ message }}</span></p>
+                {% endif %}
+            {% endfor %}
+            <div>
+                <blockquote>Server is Up!</blockquote>
+            </div>
+        </main>
+    </body>
+</html>
